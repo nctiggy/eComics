@@ -1,8 +1,10 @@
 class PagesController < ApplicationController
   def home
+    @title="Home"
   end
 
-  def new
+  def settings
+    @settings="Setings"
   end
 
 end
